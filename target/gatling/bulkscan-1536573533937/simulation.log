@@ -1,0 +1,5 @@
+RUN	BulkScan.Login.BulkScan		bulkscan	1536573533937	 	2.0
+REQUEST	Bulk Scan	1		001_GetToken	1536573534601	1536573534601	KO	j.n.UnknownHostException: proxyout.reform.hmcts.net: nodename nor servname provided, or not known
+GROUP	Failed to build request 002_FileUpload: No attribute named 'SaS_Token' is defined 	1536573534651
+USER	Bulk Scan	1	END	1536573534577	1536573534653
+USER	Bulk Scan	1	START	1536573534577	1536573534577

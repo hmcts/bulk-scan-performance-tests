@@ -1,0 +1,10 @@
+{
+  "simulation": "BulkUpload.Login.BulkUpload",
+  "simulationId": "bulkupload",
+  "start": 1536156972887,
+  "description": "",
+  "scenarios": ["Bulk Upload"],
+  "assertions": [
+
+  ]
+}

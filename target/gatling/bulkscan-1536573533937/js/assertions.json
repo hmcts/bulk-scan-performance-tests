@@ -1,0 +1,10 @@
+{
+  "simulation": "BulkScan.Login.BulkScan",
+  "simulationId": "bulkscan",
+  "start": 1536573533937,
+  "description": "",
+  "scenarios": ["Bulk Scan"],
+  "assertions": [
+
+  ]
+}

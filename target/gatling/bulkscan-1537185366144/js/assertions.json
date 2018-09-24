@@ -1,0 +1,27 @@
+{
+  "simulation": "BulkScan.Login.BulkScan",
+  "simulationId": "bulkscan",
+  "start": 1537185366144,
+  "description": "",
+  "scenarios": ["Bulk Scan"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [800.0],
+  "result": false,
+  "message": "Global: max of response time is less than 800.0",
+  "actualValue": [882.0]
+},
+{
+  "path": "Global",
+  "target": "percentage of successful requests",
+  "condition": "is greater than",
+  "expectedValues": [90.0],
+  "result": true,
+  "message": "Global: percentage of successful requests is greater than 90.0",
+  "actualValue": [100.0]
+}
+  ]
+}
