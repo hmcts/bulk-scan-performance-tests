@@ -12,7 +12,7 @@ class BulkScan extends Simulation {
 	//Script variables defined below
 	val httpConf = http.baseURL("https://core-api-mgmt-sprod.azure-api.net")
 	val url2 = "https://bulkscansprod.blob.core.windows.net"
-	val zipfilename = "1_24-06-2018-00-00-50.zip"
+	val zipfilename = "1_24-06-2018-00-00-50.zip" //should no longer be required as controlled by csv
 	val localfilepath = "/Users/jonathanmcadam/simple-gatling-tests-framework/src/test/resources/data/"
 
 	object GetSasToken {
