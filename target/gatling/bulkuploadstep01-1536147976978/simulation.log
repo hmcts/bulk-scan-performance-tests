@@ -1,5 +1,0 @@
-RUN	BulkUpload.Login.BulkUploadStep01		bulkuploadstep01	1536147976978	 	2.0
-USER	Scenario Name	1	START	1536147977495	1536147977495
-REQUEST	Scenario Name	1		GetToken	1536147977515	1536147977767	OK	 
-GROUP	Failed to build request Home: file 1_24-06-2018-00-00-00.zip doesn't exist 	1536147977865
-USER	Scenario Name	1	END	1536147977495	1536147977870

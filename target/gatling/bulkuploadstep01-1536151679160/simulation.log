@@ -1,5 +1,0 @@
-RUN	BulkUpload.Login.BulkUploadStep01		bulkuploadstep01	1536151679160	 	2.0
-USER	Scenario Name	1	START	1536151679684	1536151679684
-REQUEST	Scenario Name	1		GetToken	1536151679705	1536151679973	OK	 
-GROUP	Failed to build request FileUpload: Can't cast value /Users/jonathanmcadam/1_24-06-2018-00-00-00.zip of type class java.lang.String into class [B 	1536151680065
-USER	Scenario Name	1	END	1536151679684	1536151680071

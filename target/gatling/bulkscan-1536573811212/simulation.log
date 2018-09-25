@@ -1,5 +1,0 @@
-RUN	BulkScan.Login.BulkScan		bulkscan	1536573811212	 	2.0
-USER	Bulk Scan	1	START	1536573811734	1536573811734
-REQUEST	Bulk Scan	1		001_GetToken	1536573811754	1536573812335	KO	jsonPath($.sas_token).find.exists failed, could not prepare: Boon failed to parse into a valid AST: JsonException: Unable to determine the current character, it is not a string, number, array, or object  The current character read is 'T' with an int value of 84 Unable to determine the current character, it is not a string, number, array, or object line number 1 index number 0 The resource you are looking for has been removed, had its name changed, or is temporarily unavailable. ^
-GROUP	Failed to build request 002_FileUpload: No attribute named 'SaS_Token' is defined 	1536573812380
-USER	Bulk Scan	1	END	1536573811734	1536573812386
