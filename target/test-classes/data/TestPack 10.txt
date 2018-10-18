@@ -1,0 +1,55 @@
+{
+  "po_box": "SSCSPO",
+  "jurisdiction": "SSCS",
+  "delivery_date": "23-06-2018 00:00:00.000000",
+  "opening_date": "24-06-2018 00:00:00.000000",
+  "zip_file_createddate": "24-02-2018 00:00:00.000000",
+  "zip_file_name": "1_24-06-2018-00-00-00.zip",
+  "scannable_items": [
+      {
+        "document_control_number": "1111020",
+        "scanning_date": "24-02-2017 00:00:00.000000",
+        "ocr_accuracy": "string",
+        "manual_intervention": "string",
+        "next_action": "return",
+        "next_action_date": "24-06-2018 00:00:00.000000",
+        "ocr_data": "ew0KICAiTWV0YWRhdGFfZmlsZSI6IFsNCiAgICAgeyAibWV0YWRhdGFfZmllbGRfbmFtZSI6ICJyaWdodCB0byBhcHBlYWxfbXJuIiwgIm1ldGFkYXRhX2ZpZWxkX3ZhbHVlIjogIkZhbHNlIiB9LA0KCSB7ICJtZXRhZGF0YV9maWVsZF9uYW1lIjogImNvbnRhaW5zX01ybiIsICJtZXRhZGF0YV9maWVsZF92YWx1ZSI6ICJGYWxzZSIgfSwNCgkgeyBtZXRhZGF0YV9maWVsZF9uYW1lOiAiYmVuZWZpdFR5cGVfZGVzY3JpcHRpb24iLCBtZXRhZGF0YV9maWVsZF92YWx1ZTogIlNvbWV0aGluZyBSYW5kb20iIH0sDQoJIHsgbWV0YWRhdGFfZmllbGRfbmFtZTogImFwcGVsbGFudF90aXRsZSIsIG1ldGFkYXRhX2ZpZWxkX3ZhbHVlOiAiTXIiIH0sDQoJIHsgbWV0YWRhdGFfZmllbGRfbmFtZTogImFwcGVsbGFudF9maXJzdE5hbWUiLCBtZXRhZGF0YV9maWVsZF92YWx1ZTogIlNobyBDzLZhzLZyzLZ0zLZlzLZyzLYiIH0sDQoJIHsgbWV0YWRhdGFfZmllbGRfbmFtZTogImFwcGVsbGFudF9sYXN0TmFtZSIsIG1ldGFkYXRhX2ZpZWxkX3ZhbHVlOiAiQ2FydGVyIiB9LA0KCSB7IG1ldGFkYXRhX2ZpZWxkX25hbWU6ICJhcHBlbGxhbnRfYWRkcmVzcyIsIG1ldGFkYXRhX2ZpZWxkX3ZhbHVlOiAiMjUgVGhvbWFzIEF2ZW51ZSBEb3ZlbnRoIFBhcmsiIH0sDQoJIHsgbWV0YWRhdGFfZmllbGRfbmFtZTogImFwcGVsbGFudF9wb3N0Y29kZSIsIG1ldGFkYXRhX2ZpZWxkX3ZhbHVlOiAiR0kxMzFQUSIgfSwNCgkgeyBtZXRhZGF0YV9maWVsZF9uYW1lOiAiYXBwZWxsYW50X3Bob25lIiwgbWV0YWRhdGFfZmllbGRfdmFsdWU6ICIwNzk5OTk5OTk5OSIgfSwNCgkgeyBtZXRhZGF0YV9maWVsZF9uYW1lOiAiYXBwZWxsYW50X21vYmlsZSIsIG1ldGFkYXRhX2ZpZWxkX3ZhbHVlOiAiIiB9Jw0KCSB7IG1ldGFkYXRhX2ZpZWxkX25hbWU6ICJhcHBlbGxhbnRfZG9iIiwgbWV0YWRhdGFfZmllbGRfdmFsdWU6ICIxMC8xMi8xOTg1IiB9LA0KCSB7IG1ldGFkYXRhX2ZpZWxkX25hbWU6ICJhcHBlbGxhbnRfbmlGYWxzZSIsIG1ldGFkYXRhX2ZpZWxkX3ZhbHVlOiAiR1ExMjUwMjJFIiB9LCANCgkgeyBtZXRhZGF0YV9maWVsZF9uYW1lOiAiaXNfYXBwb2ludGVlIiwgbWV0YWRhdGFfZmllbGRfdmFsdWU6ICJGYWxzZSJ9LA0KCSB7IG1ldGFkYXRhX2ZpZWxkX25hbWU6ICJhcHBvaW50ZWVfdGl0bGUiLCBtZXRhZGF0YV9maWVsZF92YWx1ZTogIk1yIn0sDQoJIHsgbWV0YWRhdGFfZmllbGRfbmFtZTogImFwcG9pbnRlZV9maXJzdE5hbWUiLCBtZXRhZGF0YV9maWVsZF92YWx1ZTogIkphbWVzIn0sDQoJIHsgbWV0YWRhdGFfZmllbGRfbmFtZTogImFwcG9pbnRlZV9sYXN0TmFtZSIsIG1ldGFkYXRhX2ZpZWxkX3ZhbHVlOiAiQnJvd24yCSJ9LA0KCSB7IG1ldGFkYXRhX2ZpZWxkX25hbWU6ICJhcHBvaW50ZWVfYWRkcmVzcyIsIG1ldGFkYXRhX2ZpZWxkX3ZhbHVlOiAiMjUgSmFuZSBBdmVudWUgRG92ZW50aCBQYXJrIFN1cnJleSJ9LA0KCSB7IG1ldGFkYXRhX2ZpZWxkX25hbWU6ICJhcHBvaW50ZWVfcG9zdGNvZGUiLCBtZXRhZGF0YV9maWVsZF92YWx1ZTogIkdQMTExMDAwRSJ9LA0KCSB7IG1ldGFkYXRhX2ZpZWxkX25hbWU6ICJhcHBvaW50ZWVfZG9iIiwgbWV0YWRhdGFfZmllbGRfdmFsdWU6ICIwOC8wOC8xOTg4In0sDQoJIHsgbWV0YWRhdGFfZmllbGRfbmFtZTogImFwcG9pbnRlZV9uaUZhbHNlIiwgbWV0YWRhdGFfZmllbGRfdmFsdWU6ICJHVTEzN0RBIg0KDQogIF0NCiAgfQ0KDQogIA0KDQo=",
+        "file_name": "1111020.pdf",
+        "notes": ""
+      },
+    {
+        "document_control_number": "1111021",
+		"Scanning_date": "24-06-2018 00:00:00.000000",
+        "manual_intervention": "string",
+        "next_action": "forward",
+        "next_action_date": "25-06-2018 00:00:00.000000",
+        "file_name": "1111021.pdf",
+        "notes": "Evidence attached"
+      },
+	    {
+        "document_control_number": "1111022",
+		"Scanning_date": "24-06-2018 00:00:00.000000",
+        "manual_intervention": "string",
+        "next_action": "forward",
+        "next_action_date": "25-06-2018 00:00:00.000000",
+        "file_name": "1111022.pdf",
+        "notes": "Evidence attached"
+      },
+	    {
+        "document_control_number": "1111023",
+		"Scanning_date": "24-06-2018 00:00:00.000000",
+        "manual_intervention": "string",
+        "next_action": "forward",
+        "next_action_date": "25-06-2018 00:00:00.000000",
+        "file_name": "1111023.pdf",
+        "notes": "Evidence attached"
+      }
+  ],
+  "payments": [
+      
+  ],
+  "non_scannable_items": [
+      
+      
+  ]
+}
