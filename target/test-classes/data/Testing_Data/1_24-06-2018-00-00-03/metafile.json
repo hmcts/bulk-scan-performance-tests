@@ -1,0 +1,35 @@
+{
+  "case_number": "1002698",
+  "jurisdiction": "AUTOTEST2",
+  "envelope_classification": "exception",
+  "po_box": "SSCSPO",
+  "delivery_date": "23-06-2018 00:00:00.000000",
+  "opening_date": "24-06-2018 00:00:00.000000",
+  "zip_file_createddate": "24-02-2018 00:00:00.000000",
+  "zip_file_name": "1_24-06-2018-00-00-01.zip",
+  "scannable_items": [
+    {
+        "document_control_number": "1111001",
+        "scanning_date": "24-06-2018 00:00:00.000000",
+        "manual_intervention": "string",
+        "next_action": "forward",
+        "next_action_date": "25-06-2018 00:00:00.000000",
+        "file_name": "1111001.pdf",
+        "notes": ""
+      }
+  ],
+  "payments": [
+      {
+        "document_control_number": "1111001",
+        "method": "Cheque",
+        "amount": "100.00",
+        "currency": "GBP"
+      }
+  ],
+  "non_scannable_items": [
+      {
+        "item_type": "CD",
+        "notes": "4GB USB memory stick"
+      }
+  ]
+}
