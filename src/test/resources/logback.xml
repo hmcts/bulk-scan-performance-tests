@@ -9,11 +9,9 @@
 	</appender>
 
 	<!-- Uncomment for logging ALL HTTP request and responses -->
-<<<<<<< HEAD
 	<!--	<logger name="io.gatling.http.ahc" level="TRACE" /> -->
-=======
+
 	<!-- 	<logger name="io.gatling.http.ahc" level="TRACE" /> -->
->>>>>>> a47ed6dfd722a868368017cee25f672e427780e2
 	<!--   	<logger name="io.gatling.http.response" level="TRACE" /> -->
 	<!-- Uncomment for logging ONLY FAILED HTTP request and responses -->
 	<!-- 	<logger name="io.gatling.http.ahc" level="DEBUG" /> -->

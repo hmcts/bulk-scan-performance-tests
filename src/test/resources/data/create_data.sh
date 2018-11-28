@@ -5,8 +5,9 @@ zipLocation=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-perfo
 pdfFile1=1111001.pdf
 pdfFile2=1111002.pdf
 pdfLocation=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/
-csvFile=CCD_CaseList_01-10-2018_only.csv
-jurisdiction=AUTOTEST2
+csvFile=CaseListData_27112018.csv
+jurisdiction=SSCS
+csvDataFile=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/zip_files/MyData.csv
 
 #---- END OF VARIABLE DECLARATION ----#
 
@@ -97,6 +98,9 @@ EOF
 
 	#remove the zip folder we created earlier as we no longer require them
 	rm -rf ${caseFolder}
+
+	#add the zip file name to the csv data file MyData.csv
+	echo ${caseFolder}.zip >> $csvDataFile
 
 	#increase the value of i
 	var=$((var+1))

@@ -1,0 +1,6 @@
+ASSERTION	AAMEAAEBBgAAAAAAAACJQA==
+ASSERTION	AAMDAAMCAAAAAAAAgFZA
+RUN	BulkScan.Login.BulkScan		bulkscan	1543420348482	 	2.0
+USER	Bulk Scan	1	START	1543420349062	1543420349062
+REQUEST	Bulk Scan	1		001_GetToken	1543420349084	1543420349107	KO	jsonPath($.sas_token).find.exists failed, could not prepare: Boon failed to parse into a valid AST: JsonException: Unable to determine the current character, it is not a string, number, array, or object  The current character read is '<' with an int value of 60 Unable to determine the current character, it is not a string, number, array, or object line number 1 index number 0 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> ^
+USER	Bulk Scan	1	END	1543420349062	1543420349157

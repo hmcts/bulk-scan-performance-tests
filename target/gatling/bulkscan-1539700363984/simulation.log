@@ -1,6 +1,0 @@
-ASSERTION	AAMEAAEBBgAAAAAAAACJQA==
-ASSERTION	AAMDAAMCAAAAAAAAgFZA
-RUN	BulkScan.Login.BulkScan		bulkscan	1539700363984	 	2.0
-USER	Bulk Scan	1	START	1539700364559	1539700364559
-GROUP	Failed to build request 002_FileUpload: file /Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/zip_files5_24-06-2018-00-00-00.zip doesn't exist 	1539700364598
-USER	Bulk Scan	1	END	1539700364559	1539700364601
