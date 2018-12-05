@@ -5,7 +5,7 @@ zipLocation=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-perfo
 pdfFile1=1111001.pdf
 pdfFile2=1111002.pdf
 pdfLocation=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/
-csvFile=CaseListData_27112018.csv
+csvFile=CaseListData_05122018.csv
 jurisdiction=SSCS
 csvDataFile=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/zip_files/MyData.csv
 
@@ -25,7 +25,7 @@ do
 	#create the unique folder name using the looped var and required folder structure name
 	#case=$(printf ${f1})
 	case="$(echo "$f1"|tr -d '\r')"
-	folder="_24-06-2018-00-00-00"
+	folder="_05-12-2018-00-00-00"
 	caseFolder=$var$folder
 
 	#create the directory for each zip file using mkdir
@@ -40,7 +40,7 @@ do
 	{
 	  "case_number": "${case}",
 	  "jurisdiction": "${jurisdiction}",
-	  "envelope_classification": "exception",
+	  "classification": "exception",
 	  "po_box": "SSCSPO",
 	  "delivery_date": "23-06-2018 00:00:00.000000",
 	  "opening_date": "24-06-2018 00:00:00.000000",
@@ -49,6 +49,7 @@ do
 	  "scannable_items": [
 	    {
 	        "document_control_number": "1111001",
+	        "document_type": "SSCS1",
 	        "scanning_date": "24-06-2018 00:00:00.000000",
 	        "manual_intervention": "string",
 	        "next_action": "forward",
@@ -58,6 +59,7 @@ do
 	      },
     	{
 	        "document_control_number": "1111002",
+	        "document_type": "SSCS2",	        
 	        "scanning_date": "24-06-2018 00:00:00.000000",
 	        "manual_intervention": "string",
 	        "next_action": "forward",
@@ -71,12 +73,16 @@ do
 	        "document_control_number": "1111001",
 	        "method": "Cheque",
 	        "amount": "100.00",
-	        "currency": "GBP"
+	        "currency": "GBP",
+	        "account_number": "11223344",
+	        "payment_instrument_number": "1000000",
+	        "sort_code": "112233"
 	      }
 	  ],
 	  "non_scannable_items": [
 	      {
 	        "item_type": "CD",
+	       	"document_control_number": "1111003",
 	        "notes": "4GB USB memory stick"
 	      }
 	  ]
@@ -87,14 +93,15 @@ EOF
 	cp ${pdfLocation}${pdfFile1} ${pdfFile1}
 	cp ${pdfLocation}${pdfFile2} ${pdfFile2}
 
-	#move back up a dir
-	cd ..
-
 	#zip the folder
-	zip -r ${caseFolder}.zip ${caseFolder}
+	#zip -r ${caseFolder}.zip ${caseFolder}
+	zip -r ${caseFolder}.zip ${pdfFile1} ${pdfFile2} metadata.json
 
 	#move the zip file to a separate folder to collate all data in one location
 	mv ${caseFolder}.zip ${zipLocation}
+
+	#move back up a dir
+	cd ..
 
 	#remove the zip folder we created earlier as we no longer require them
 	rm -rf ${caseFolder}

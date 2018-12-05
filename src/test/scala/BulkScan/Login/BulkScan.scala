@@ -11,7 +11,7 @@ class BulkScan extends Simulation {
 	val localfilepath = "/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/zip_files/"
 	val feeder = csv("/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/zip_files/MyData.csv").queue
 	val header_01 = Map("Ocp-Apim-Subscription-Key" -> "b78fb11dad304396982bb647ff4d979b")
-	val header_02 = Map("x-ms-blob-type" -> "BlockBlob", "Content-Type" -> "application/zip")
+	val header_02 = Map("x-ms-blob-type" -> "BlockBlob")
 	val httpConf = http.baseURL("https://core-api-mgmt-sprod.azure-api.net")
 	val url2 = "https://bulkscan.sprod.platform.hmcts.net"
 
@@ -27,7 +27,7 @@ class BulkScan extends Simulation {
 
 		object SendFile {
 
-			val FileUpload = exec(_.set("filepath", localfilepath))
+			/*val FileUpload = exec(_.set("filepath", localfilepath))
 					.feed(feeder)
 					.exec(http("002_FileUpload")
 						.put(url2 + "/sscs/${zipfile}?${SaS_Token}")
@@ -35,9 +35,19 @@ class BulkScan extends Simulation {
 						.headers(header_02)
 						.bodyPart(RawFileBodyPart("${zipfile}", "${filepath}${zipfile}")
 							.fileName("${filepath}${zipfile}")
-							.transferEncoding("binary")).asMultipartForm
+							.transferEncoding("binary"))
+							.asMultipartForm
 						.check(status.is(201))
-					)
+					)*/
+			val FileUpload = exec(http("002_FileUpload")
+  			.put(url2 + "/sscs/100_05-12-2018-00-00-00.zip?${SaS_Token}")
+  			.proxy(Proxy("proxyout.reform.hmcts.net", 8080))
+  			.headers(header_02)
+  			.bodyPart(RawFileBodyPart("100_05-12-2018-00-00-00.zip","/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/zip_files/100_05-12-2018-00-00-00.zip")
+					.fileName("100_05-12-2018-00-00-00.zip")
+					.transferEncoding("binary"))
+  				.asMultipartForm
+				)
 		}
 
 		val scn = scenario("Bulk Scan")

@@ -2,12 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10c4ebe6-ed33-4907-9901-ac086c31ec70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/BulkScanTest_001.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/BulkScan/Login/BulkScan.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/1_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/CaseListData_27112018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/SSCS_cases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/SSCS_cases.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/create_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/create_data.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/signed/1_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/signed/1_24-06-2018-00-00-00/envelope.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/signed/1_24-06-2018-00-00-00/signature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/signed/2_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/signed/3_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/signed/4_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/signed/5_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/signed_zip_files/2_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/signed_zip_files/3_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/signed_zip_files/4_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/signed_zip_files/5_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/1_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/2_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/3_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/4_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/5_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/MyData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/zip_files/MyData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/﻿1_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/BulkScan/Login/BulkScan.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/BulkScan/Login/BulkScan.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BulkScan/Login/BulkScan$GetSasToken$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BulkScan/Login/BulkScan$GetSasToken$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BulkScan/Login/BulkScan$SendFile$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BulkScan/Login/BulkScan$SendFile$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BulkScan/Login/BulkScan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BulkScan/Login/BulkScan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/1_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/CaseListData_27112018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/SSCS_cases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/SSCS_cases.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/create_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/create_data.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/signed/1_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/signed/1_24-06-2018-00-00-00/envelope.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/signed/1_24-06-2018-00-00-00/signature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/signed/2_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/signed/3_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/signed/4_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/signed/5_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/signed_zip_files/2_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/signed_zip_files/3_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/signed_zip_files/4_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/signed_zip_files/5_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/1_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/2_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/3_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/4_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/5_24-06-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/MyData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/zip_files/MyData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logback.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,60 +61,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-262567149">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="7" />
-          <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="conf" value="1" />
-          <entry key="sc" value="3" />
-          <entry key="scala" value="6" />
-          <entry key="xml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="HOCON" value="1" />
-          <entry key="Scala" value="9" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="sc" value="66" />
-          <entry key="scala" value="226" />
-          <entry key="txt" value="45" />
-          <entry key="xml" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Scala" value="292" />
-          <entry key="XML" value="18" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/BulkScan/Login/BulkScan.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="432">
+              <caret line="45" column="62" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="62" />
+              <folding>
+                <element signature="e#24#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -94,12 +104,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/test/scala/BulkScanTest_002.sc" />
-        <option value="$PROJECT_DIR$/target/test-classes/logback.xml" />
         <option value="$PROJECT_DIR$/src/test/scala/BulkScanTest_001.scala" />
+        <option value="$PROJECT_DIR$/target/test-classes/logback.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/gatling.conf" />
+        <option value="$PROJECT_DIR$/src/test/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/test/scala/BulkScan/Login/BulkScan.scala" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -113,8 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,6 +154,13 @@
               <item name="bulk-scan-performance-tests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-gatling-tests-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bulk-scan-performance-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -153,20 +176,16 @@
               <item name="bulk-scan-performance-tests" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="simple-gatling-tests-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bulk-scan-performance-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543424796545" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544004915117" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -256,9 +275,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="963" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21611722" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23076923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -276,6 +294,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3283582" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -285,9 +304,6 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="val zipfilename comment added" />
@@ -301,17 +317,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/gatling.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/GetToken_001.scala" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/gatling/gatling-http/2.3.1/gatling-http-2.3.1.jar!/io/gatling/http/request/builder/RequestExpressionBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -321,22 +327,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/BulkScanTest_002.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
+        <state relative-caret-position="767">
           <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/test-classes/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/gatling.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/recorder.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-957" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-gatling-tests-framework.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-655" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/BulkScan/Login/BulkScan.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="432">
+          <caret line="45" column="62" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="62" />
+          <folding>
+            <element signature="e#24#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
