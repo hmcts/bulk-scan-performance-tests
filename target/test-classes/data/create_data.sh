@@ -5,7 +5,7 @@ zipLocation=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-perfo
 pdfFile1=1111001.pdf
 pdfFile2=1111002.pdf
 pdfLocation=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/
-csvFile=CaseListData_05122018.csv
+csvFile=CaseListData_new.csv
 jurisdiction=SSCS
 csvDataFile=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/zip_files/MyData.csv
 
@@ -25,7 +25,7 @@ do
 	#create the unique folder name using the looped var and required folder structure name
 	#case=$(printf ${f1})
 	case="$(echo "$f1"|tr -d '\r')"
-	folder="_05-12-2018-00-00-00"
+	folder="_09-12-2018-00-00-00"
 	caseFolder=$var$folder
 
 	#create the directory for each zip file using mkdir
@@ -49,7 +49,7 @@ do
 	  "scannable_items": [
 	    {
 	        "document_control_number": "1111001",
-	        "document_type": "SSCS1",
+	        "document_type": "Other",
 	        "scanning_date": "24-06-2018 00:00:00.000000",
 	        "manual_intervention": "string",
 	        "next_action": "forward",
@@ -59,7 +59,7 @@ do
 	      },
     	{
 	        "document_control_number": "1111002",
-	        "document_type": "SSCS2",	        
+	        "document_type": "Other",	        
 	        "scanning_date": "24-06-2018 00:00:00.000000",
 	        "manual_intervention": "string",
 	        "next_action": "forward",
