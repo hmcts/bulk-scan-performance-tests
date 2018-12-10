@@ -4,6 +4,7 @@ workingDir=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-perfor
 zipLocation=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/zip_files/
 pdfFile1=1111001.pdf
 pdfFile2=1111002.pdf
+pdfFile3=1111004.pdf
 pdfLocation=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/
 csvFile=CaseListData_new.csv
 jurisdiction=SSCS
@@ -25,7 +26,7 @@ do
 	#create the unique folder name using the looped var and required folder structure name
 	#case=$(printf ${f1})
 	case="$(echo "$f1"|tr -d '\r')"
-	folder="_09-12-2018-00-00-00"
+	folder="_10-12-2018-00-00-00"
 	caseFolder=$var$folder
 
 	#create the directory for each zip file using mkdir
@@ -66,6 +67,16 @@ do
 	        "next_action_date": "25-06-2018 00:00:00.000000",
 	        "file_name": "1111002.pdf",
 	        "notes": "Cheque will be forwarded to court to bank it"
+      	},
+    	{
+	        "document_control_number": "1111004",
+	        "document_type": "Other",	        
+	        "scanning_date": "24-06-2018 00:00:00.000000",
+	        "manual_intervention": "string",
+	        "next_action": "forward",
+	        "next_action_date": "25-06-2018 00:00:00.000000",
+	        "file_name": "1111004.pdf",
+	        "notes": ""
       	}
 	  ],
 	  "payments": [
@@ -92,10 +103,11 @@ EOF
 	#copy the required PDF files into the new dir
 	cp ${pdfLocation}${pdfFile1} ${pdfFile1}
 	cp ${pdfLocation}${pdfFile2} ${pdfFile2}
+	cp ${pdfLocation}${pdfFile2} ${pdfFile3}
 
 	#zip the folder
 	#zip -r ${caseFolder}.zip ${caseFolder}
-	zip -r ${caseFolder}.zip ${pdfFile1} ${pdfFile2} metadata.json
+	zip -r ${caseFolder}.zip ${pdfFile1} ${pdfFile2} ${pdfFile3} metadata.json
 
 	#move the zip file to a separate folder to collate all data in one location
 	mv ${caseFolder}.zip ${zipLocation}

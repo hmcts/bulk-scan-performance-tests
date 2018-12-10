@@ -13,7 +13,6 @@ class BulkScan extends Simulation {
 	val header_01 = Map("Ocp-Apim-Subscription-Key" -> "b78fb11dad304396982bb647ff4d979b")
 	val header_02 = Map("Content-Type" -> "", "x-ms-blob-type" -> "BlockBlob", "Accept-Encoding" -> "gzip,deflate")
 	val url1 = "https://core-api-mgmt-sprod.azure-api.net"
-	//val url2 = "https://bulkscan.sprod.platform.hmcts.net"
 	val httpConf = http.baseURL("https://bulkscan.sprod.platform.hmcts.net")
 
 	object GetSasToken {
@@ -41,51 +40,28 @@ class BulkScan extends Simulation {
 						.check(status.is(201))
 					)*/
 
-			/*val FileUpload = exec(http("002_FileUpload")
-  			.put("/sscs/4_07-12-2018-00-00-00.zip?${SaS_Token}")
-  			.proxy(Proxy("proxyout.reform.hmcts.net", 8080))
-				.disableUrlEncoding
-  			.header("Content-Type", " ")
+			val FileUpload = exec(_.set("filepath", localfilepath))
+				.feed(feeder)
+				.exec(http("002_FileUpload")
+				.put("/sscs/${zipfile}?${SaS_Token}")
 				.header("x-ms-blob-type", "BlockBlob")
-				.header("Accept-Encoding", "gzip,deflate")
-				.header("Connection", "Keep-Alive")
-				.header("User-Agent", "Apache-HttpClient/4.1.1 (java 1.5)")
-  			.bodyPart(RawFileBodyPart("4_07-12-2018-00-00-00.zip","/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/zip_files/4_07-12-2018-00-00-00.zip")
-					.contentType(" ")
-					//.dispositionType("form-data")
-					//.contentId("4_07-12-2018-00-00-00.zip")
-					.fileName("4_07-12-2018-00-00-00.zip")
-					.transferEncoding("chunked")
-				)
-				//.asMultipartForm
-			)*/
-
-			val FileUpload = exec(http("002_FileUpload")
-				.put("/sscs/5_09-12-2018-00-00-00.zip?${SaS_Token}")
-				.header("x-ms-blob-type", "BlockBlob")
-				.header("Accept-Encoding", "gzip,deflate")
 				.header("Content-Type", "")
-				.bodyPart(RawFileBodyPart("5_09-12-2018-00-00-00.zip","/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/zip_files/5_09-12-2018-00-00-00.zip")
-  				.fileName("5_09-12-2018-00-00-00.zip")
-  				.transferEncoding("chunked")
-					.contentType("")
+				.body(RawFileBody("${filepath}${zipfile}")
 				)
-				//.disableFollowRedirect
 			)
 		}
 
 		val scn = scenario("Bulk Scan")
-			.repeat(1)(
+			.repeat(2)(
 				exec(GetSasToken.gettoken, SendFile.FileUpload))
 
 		setUp(scn
 			//.inject(atOnceUsers(10))
-			.inject(rampUsers(1) over(1))
+			.inject(rampUsers(2) over(5))
 			.protocols(httpConf))
 			.maxDuration(1 minute)
 
-			.assertions(
+			/*.assertions(
 				global.responseTime.max.lt(800),
-				global.successfulRequests.percent.gt(90)
-			)
+				global.successfulRequests.percent.gt(90))*/
 	}
