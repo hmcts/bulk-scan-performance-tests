@@ -3,35 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="10c4ebe6-ed33-4907-9901-ac086c31ec70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/CaseListData_07122018.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/CaseListData_new.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/CaseListData_new.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/SSCS_cases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/SSCS_cases.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/create_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/create_data.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/3_09-12-2018-00-00-00.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/4_09-12-2018-00-00-00.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/5_09-12-2018-00-00-00.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/6_09-12-2018-00-00-00.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/7_09-12-2018-00-00-00.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/8_09-12-2018-00-00-00.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/9_09-12-2018-00-00-00.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zip_files/MyData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/zip_files/MyData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/gatling.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/gatling.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/BulkScan/Login/BulkScan.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/BulkScan/Login/BulkScan.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BulkScan/Login/BulkScan$SendFile$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BulkScan/Login/BulkScan$SendFile$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BulkScan/Login/BulkScan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BulkScan/Login/BulkScan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/CaseListData_07122018.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/CaseListData_new.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/CaseListData_new.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/SSCS_cases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/SSCS_cases.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/2326_07-12-2018-00-00-00/1111001.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/2326_07-12-2018-00-00-00/1111002.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/2326_07-12-2018-00-00-00/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/2326_07-12-2018-00-00-00/zizNrtGN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/BulkScan_Feeder_001.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/Package Content.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/data/create_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/create_data.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/3_09-12-2018-00-00-00.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/4_09-12-2018-00-00-00.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/5_09-12-2018-00-00-00.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/6_09-12-2018-00-00-00.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/7_09-12-2018-00-00-00.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/8_09-12-2018-00-00-00.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/9_09-12-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/newfile.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/signed_zip_files/﻿zipfile.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/testdata1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/testdata_6000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/10_10-12-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/6_10-12-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/7_10-12-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/8_10-12-2018-00-00-00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/9_10-12-2018-00-00-00.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/data/zip_files/MyData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/zip_files/MyData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gatling.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gatling.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logback.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/BulkScan/Login/BulkScan.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+            <state relative-caret-position="540">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding>
                 <element signature="e#24#55#0" expanded="true" />
               </folding>
@@ -58,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+              <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -95,8 +89,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/BulkScanTest_002.sc" />
         <option value="$PROJECT_DIR$/src/test/scala/BulkScanTest_001.scala" />
         <option value="$PROJECT_DIR$/target/test-classes/logback.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/gatling.conf" />
+        <option value="$PROJECT_DIR$/src/test/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/test/scala/BulkScan/Login/BulkScan.scala" />
       </list>
     </option>
@@ -258,7 +252,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="963" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23076923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -329,13 +322,6 @@
         <state relative-caret-position="-655" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/BulkScanTest_002.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -350,10 +336,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/BulkScan/Login/BulkScan.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+        <state relative-caret-position="540">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <element signature="e#24#55#0" expanded="true" />
           </folding>

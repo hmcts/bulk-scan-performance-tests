@@ -27,19 +27,6 @@ class BulkScan extends Simulation {
 
 		object SendFile {
 
-			/*val FileUpload = exec(_.set("filepath", localfilepath))
-					.feed(feeder)
-					.exec(http("002_FileUpload")
-						.put(url2 + "/sscs/${zipfile}?${SaS_Token}")
-						.proxy(Proxy("proxyout.reform.hmcts.net", 8080))
-						.headers(header_02)
-						.bodyPart(RawFileBodyPart("${zipfile}", "${filepath}${zipfile}")
-							.fileName("${filepath}${zipfile}")
-							.transferEncoding("binary"))
-							.asMultipartForm
-						.check(status.is(201))
-					)*/
-
 			val FileUpload = exec(_.set("filepath", localfilepath))
 				.feed(feeder)
 				.exec(http("002_FileUpload")
@@ -52,14 +39,14 @@ class BulkScan extends Simulation {
 		}
 
 		val scn = scenario("Bulk Scan")
-			.repeat(2)(
+			.repeat(5)(
 				exec(GetSasToken.gettoken, SendFile.FileUpload))
 
 		setUp(scn
 			//.inject(atOnceUsers(10))
 			.inject(rampUsers(2) over(5))
 			.protocols(httpConf))
-			.maxDuration(1 minute)
+			.maxDuration(2 minute)
 
 			/*.assertions(
 				global.responseTime.max.lt(800),
