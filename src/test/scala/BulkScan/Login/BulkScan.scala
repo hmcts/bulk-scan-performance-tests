@@ -4,6 +4,7 @@ import io.gatling.core.Predef._
 import io.gatling.core.scenario.Simulation
 import io.gatling.http.Predef._
 import scala.concurrent.duration._
+import bulk-scan-performance-tests.src.test.scala._
 
 class BulkScan extends Simulation {
 
