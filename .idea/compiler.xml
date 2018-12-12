@@ -9,5 +9,8 @@
         <module name="simple-gatling-tests-framework" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="simple-gatling-tests-framework" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
