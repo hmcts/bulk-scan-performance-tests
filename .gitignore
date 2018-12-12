@@ -1,3 +1,3 @@
 *.class
 *.log
-sensitiveData.scala
+/src/test/resources/sensitiveData.scala
