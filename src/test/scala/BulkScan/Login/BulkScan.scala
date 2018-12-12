@@ -8,11 +8,12 @@ import scala.concurrent.duration._
 class BulkScan extends Simulation {
 
 	//Script variables defined below
-	//val ccdfilepath = "/Users/jonathanmcadam/Documents/Work/MOJ/dataForTesting/ccdCases/"
-	//val sscsfilepath = "/Users/jonathanmcadam/Documents/Work/MOJ/dataForTesting/sscsCases/"
-	//val ccdfeeder = csv("/Users/jonathanmcadam/Documents/Work/MOJ/dataForTesting/ccdCases/ccdData.csv")
-	//val sscsfeeder = csv("/Users/jonathanmcadam/Documents/Work/MOJ/dataForTesting/sscsCases/sscsData.csv")
-	//val header_01 = Map("Ocp-Apim-Subscription-Key" -> "b78fb11dad304396982bb647ff4d979b")
+	//***Copy in below values from sensitive data for running test***
+	//val ccdfilepath = "{ccdCases}"
+	//val sscsfilepath = "{sscsCases}"
+	//val ccdfeeder = csv("{ccdData.csv}")
+	//val sscsfeeder = csv("{sscsData.csv}")
+	//val header_01 = Map("Ocp-Apim-Subscription-Key" -> "{token}")
 	val header_02 = Map("Content-Type" -> "", "x-ms-blob-type" -> "BlockBlob", "Accept-Encoding" -> "gzip,deflate")
 	val url1 = "https://core-api-mgmt-sprod.azure-api.net"
 	val httpConf = http.baseURL("https://bulkscan.sprod.platform.hmcts.net")
