@@ -13,8 +13,9 @@
 		<encoding>UTF-8</encoding>
 
 		<gatling.version>2.3.1</gatling.version>
-
+		<gatling-plugin.version>2.2.4</gatling-plugin.version>
 		<scala-maven-plugin.version>3.2.2</scala-maven-plugin.version>
+
 	</properties>
 
 	<dependencyManagement>
@@ -95,6 +96,11 @@
 						</configuration>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>io.gatling</groupId>
+				<artifactId>gatling-maven-plugin</artifactId>
+				<version>${gatling-plugin.version}</version>
 			</plugin>
 		</plugins>
 	</build>
