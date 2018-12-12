@@ -1,3 +1,3 @@
 *.class
 *.log
-/src/test/resources/sensitiveData.scala
+/src/test/resources/scala/BulkScan/Login/sensitiveData.scala
