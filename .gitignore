@@ -2,3 +2,4 @@
 *.log
 /src/test/resources/scala/BulkScan/Login/sensitiveData.scala
 .DS_Store
+.idea
