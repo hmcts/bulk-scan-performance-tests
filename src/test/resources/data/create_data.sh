@@ -6,8 +6,8 @@ pdfFile1=1111001.pdf
 pdfFile2=1111002.pdf
 pdfFile3=1111004.pdf
 pdfLocation=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/
-csvFile=CaseListData_10122018.csv
-jurisdiction=AUTOTEST2
+csvFile=Exception_Cases.csv
+jurisdiction=SSCS
 csvDataFile=/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/zip_files/MyData.csv
 
 #---- END OF VARIABLE DECLARATION ----#
@@ -26,7 +26,7 @@ do
 	#create the unique folder name using the looped var and required folder structure name
 	#case=$(printf ${f1})
 	case="$(echo "$f1"|tr -d '\r')"
-	folder="_10-12-2018-00-00-00"
+	folder="_11-12-2018-00-00-00"
 	caseFolder=$var$folder
 
 	#create the directory for each zip file using mkdir
@@ -41,7 +41,7 @@ do
 	{
 	  "case_number": "${case}",
 	  "jurisdiction": "${jurisdiction}",
-	  "classification": "supplementary_evidence",
+	  "classification": "exception",
 	  "po_box": "SSCSPO",
 	  "delivery_date": "23-06-2018 00:00:00.000000",
 	  "opening_date": "24-06-2018 00:00:00.000000",

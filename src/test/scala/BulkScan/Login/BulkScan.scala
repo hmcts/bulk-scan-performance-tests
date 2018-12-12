@@ -8,9 +8,11 @@ import scala.concurrent.duration._
 class BulkScan extends Simulation {
 
 	//Script variables defined below
-	val localfilepath = "/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/zip_files/"
-	val feeder = csv("/Users/jonathanmcadam/simple-gatling-tests-framework/bulk-scan-performance-tests/src/test/resources/data/zip_files/MyData.csv").queue
-	val header_01 = Map("Ocp-Apim-Subscription-Key" -> "b78fb11dad304396982bb647ff4d979b")
+	//val ccdfilepath = "/Users/jonathanmcadam/Documents/Work/MOJ/dataForTesting/ccdCases/"
+	//val sscsfilepath = "/Users/jonathanmcadam/Documents/Work/MOJ/dataForTesting/sscsCases/"
+	//val ccdfeeder = csv("/Users/jonathanmcadam/Documents/Work/MOJ/dataForTesting/ccdCases/ccdData.csv")
+	//val sscsfeeder = csv("/Users/jonathanmcadam/Documents/Work/MOJ/dataForTesting/sscsCases/sscsData.csv")
+	//val header_01 = Map("Ocp-Apim-Subscription-Key" -> "b78fb11dad304396982bb647ff4d979b")
 	val header_02 = Map("Content-Type" -> "", "x-ms-blob-type" -> "BlockBlob", "Accept-Encoding" -> "gzip,deflate")
 	val url1 = "https://core-api-mgmt-sprod.azure-api.net"
 	val httpConf = http.baseURL("https://bulkscan.sprod.platform.hmcts.net")
@@ -23,30 +25,51 @@ class BulkScan extends Simulation {
 				.headers(header_01)
 				.check(jsonPath("$.sas_token").saveAs("SaS_Token")))
 				.exitHereIfFailed
+
+				.pause(1)
 		}
 
 		object SendFile {
 
-			val FileUpload = exec(_.set("filepath", localfilepath))
-				.feed(feeder)
-				.exec(http("002_FileUpload")
-				.put("/sscs/${zipfile}?${SaS_Token}")
+			val SSCSUpload = exec(_.set("sscsfilepath", sscsfilepath))
+				.feed(sscsfeeder)
+				.exec(http("002_SSCSFileUpload")
+				.put("/sscs/${sscszipfile}?${SaS_Token}")
 				.header("x-ms-blob-type", "BlockBlob")
 				.header("Content-Type", "")
-				.body(RawFileBody("${filepath}${zipfile}")
+				.body(RawFileBody("${sscsfilepath}${sscszipfile}")
 				)
 			)
+
+			.pause(1)
+
+			val CCDUpload = exec(_.set("ccdfilepath", ccdfilepath))
+				.feed(ccdfeeder)
+				.exec(http("003_CCDFileUpload")
+					.put("/sscs/${ccdzipfile}?$${SaS_Token}")
+					.header("x-ms-blob-type", "BlockBlob")
+					.header("Content-Type", "")
+					.body(RawFileBody("${ccdfilepath}${ccdzipfile}")
+					)
+				)
+
+			.pause(1)
 		}
 
 		val scn = scenario("Bulk Scan")
-			.repeat(5)(
-				exec(GetSasToken.gettoken, SendFile.FileUpload))
+			.repeat(100)(
+				exec(
+					GetSasToken.gettoken,
+					SendFile.SSCSUpload
+					//SendFile.CCDUpload
+				)
+			)
 
 		setUp(scn
 			//.inject(atOnceUsers(10))
-			.inject(rampUsers(2) over(5))
+			.inject(rampUsers(1) over(1))
 			.protocols(httpConf))
-			.maxDuration(2 minute)
+			.maxDuration(30 minute)
 
 			/*.assertions(
 				global.responseTime.max.lt(800),
