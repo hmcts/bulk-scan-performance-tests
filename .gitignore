@@ -1,7 +1,7 @@
 *.class
 *.log
-/src/test/resources/scala/BulkScan/Login/sensitiveData.scala
-.DS_Store
 *.conf
 .idea
 .iml
+/src/test/resources/scala/BulkScan/Login/sensitiveData.scala
+.DS_Store
