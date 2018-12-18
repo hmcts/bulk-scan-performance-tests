@@ -20,8 +20,6 @@ package BulkScan.Login
 
       object GetSasToken {
 
-        //val header_01 = Map("Ocp-Apim-Subscription-Key" -> "0bd0296e813e428d9e2a24ad6ef3b2c1")
-
         val gettoken = exec(http("001_GetToken")
           .get(httpConf + "/bulk-scan/token/sscs")
           .proxy(Proxy("proxyout.reform.hmcts.net", 8080))
